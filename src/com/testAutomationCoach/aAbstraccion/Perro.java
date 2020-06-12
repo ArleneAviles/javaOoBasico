@@ -6,6 +6,12 @@ public class Perro {
     public String raza;
     public String nombre;
 
+    public Perro(double tamanioPerro, String razaPerro, String nombrePerro){
+        this.tamanio = tamanioPerro;
+        this.raza = razaPerro;
+        this.nombre = nombrePerro;
+    }
+
     //comportamiento: ladrar, juguetear, comer, etc.
 
     public void ladrar() {}

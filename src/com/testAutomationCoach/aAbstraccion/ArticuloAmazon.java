@@ -1,27 +1,29 @@
 package com.testAutomationCoach.aAbstraccion;
 
-public class Articulo {
+public class ArticuloAmazon {
     String precio;
     String departamento;
     int tamanio;
     double peso;
     boolean existencia;
     int cantidad;
-    boolean envio;
+    boolean isPrime;
     String nombre;
     String identificador;
 
 
+    public String agregarCarrito(String identificador) {return null;}
 
-    public void agregarCarrito(String myColor) {}
+    public String buscar(String identificador) {return null;}
 
-    public void buscar(String myLabel) {}
+    public String comprarButton(String tipoClic){return null;}
 
-    public String comprar(String identicador)
+    public String compararlo(String identificador){return null;}
 
-    public String compararlo(String identificador){}
+    public String eliminar(String identificador) {return null;}
 
-    public void eliminar(String identificador) {}
+    public void seleccionarCantidad(int cantidadArticulos){}
+
 
 
 }

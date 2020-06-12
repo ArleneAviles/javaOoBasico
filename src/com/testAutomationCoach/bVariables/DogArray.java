@@ -6,10 +6,11 @@ public class DogArray {
     public static void main(String[] args) {
         Perro[] perrera;
         perrera = new Perro[12];
-        perrera[0] = new Perro();
-        perrera[1] = new Perro();
+        perrera[0] = new Perro(30,"doberman", "El Mesias");
+        perrera[1] = new Perro(50, "San Bernardo", "Bethoven");
         System.out.println(perrera[2]);
         //inicializar el resto de los perros.
+
 
         //ingresar caracteristicas del perro en la primera celda
         perrera[0].nombre = "Solovino";
